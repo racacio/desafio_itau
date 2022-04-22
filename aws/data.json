@@ -1,0 +1,24 @@
+[{
+    "id": 1,
+    "nombre": "Reinaldo Acacio",
+    "profesion": "Developer FullStack",
+    "empresa": "Freelance"
+},
+{
+    "id": 2,
+    "nombre": "Fabian Beas",
+    "profesion": "Solution Architect",
+    "empresa": "Itau"
+},
+{
+    "id": 3,
+    "nombre": "Nancy Vallejos",
+    "profesion": "IT Community Lead Rappi",
+    "empresa": "Itau"
+},
+{
+    "id": 4,
+    "nombre": "Miguel Constanzo",
+    "profesion": "Head of Service",
+    "empresa": "Kibernum"
+}]

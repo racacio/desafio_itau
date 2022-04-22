@@ -1,0 +1,139 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+
+table {	border-collapse: collapse; border-spacing: 0; }
+
+/* ----------------- GERAL ----------------- */
+html { height: 100% }
+body { font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #373d45; height: 100%; }
+		
+
+a { color: #373d45; text-decoration: underline; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear; }
+a:hover { color: #7a828c; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; transition: all 0.3s linear; }
+
+
+/* ----------------- HOME ----------------- */
+.lotusMain, .lotusFrame
+{
+	overflow: visible !important;
+}
+
+/*.campanas li a:first-child {
+ display: none;
+}*/
+
+#contentAll #campanasHome .campanas h1{font-size:25px; font-weight:bold; line-height:30px; color:#FFF;}
+#contentAll #campanasHome .campanas h2{font-size:15px; font-weight:bold; line-height:25px; color:#fae300;}
+#contentAll #campanasHome .slideshow .campanas li  div a{display:inline-block;  text-align:center; margin-top: 15px;}
+
+
+#campanasHome { width: 100%; height: auto; position: relative; }
+#campanasHome .slideshow { width: 100%; height: auto; overflow: hidden; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; *position: absolute; position:relative; /*position: absolute\9;*/ }
+#campanasHome .slideshow .campanas {width: 400%; height: 100%; display:none;}
+#campanasHome .slideshow .campanas > li { float: left; position: relative; width: 25%; height: 100%; }
+
+#campanasHome .thumbnails .selected {
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}
+#campanasHome .thumbnails .selected a span {margin: 0 -2px; padding: 5px 10px; border-radius: 0 0 3px 3px; -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .5); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .5); box-shadow: 0 1px 4px rgba(0, 0, 0, .5)}
+
+/* esconde la caja destacada de publicidad al iniciar el html */
+.CampanaCajaDestacada1{display:none;}
+
+/* Classe utilizada em imagens de campanas Home */
+.imgCampanaHome { width: 100%; height: auto; }
+
+/* Thumbnails Campanas Home */
+#campanasHome .thumbnails li {float: left; -webkit-transition: all .15s ease-in; -moz-transition: all .15s ease-in; transition: all .15s ease-in; margin-right:6px; width:121px; }
+#campanasHome .thumbnails { position: absolute; top: 26px; right: 0px; padding-right:10px; width: auto;}
+#campanasHome .thumbnails img { display: block; }
+
+#campanasHome .thumbnails span {
+width: 103px;
+background: #F47920;
+color: white;
+padding: 6px 9px;
+overflow: auto;
+display: none;
+}
+
+.thumbnails .tooltip-home{ width: 103px; background: #F47920; color: #fff; padding: 6px 9px; overflow: auto; display: none; font-size: 13px;}
+/* .thumbnails .tooltip-home a.sabermas-tooltip { position: relative; display: block;float: right; color:#fff; font-size: 11px; margin-top: 11px; background: url(/wps/wcm/connect/015a02b5-b97e-4b90-bf1b-01f25d579257/flecha_home.png?MOD=AJPERES) right center no-repeat; height: 14px; width: 65px; *width:68px; height:18px; line-height: 16px;} */
+.thumbnails { position:  absolute; z-index: 2; right: 0px; top: 17px; }
+.thumbnails li {float:left; width: 121px; }
+.thumbnails li a { display: block; overflow: auto;}
+
+@media print {
+		.formLogin{ display:none;}
+       #footer{display:block !important; font-size:4px !important; width:900px; height:50px; position:absolute !important;  left:0px; top:690px !important;}
+	   .btnAcessoRapido{ display:block; }
+	   .bottom_footer p{ width:900px; text-align:left !important;}
+    }
+	
+.wpthemeFooter #footer{*margin-top:0px !important;}
+
+#campanasHome{ min-height:642px;}
+
+
+
+/* texto para dejar resultado de buscador de google a la izquierda */
+.contentLocalizador .suggestSearch ul li a{ text-align:left !important;}
+
+
+.contentLocalizador .localSearch .setaDown {
+float:left;
+margin:0px 20px 0 5px;
+}
+
+.contentLocalizador .localSearch .setaDown a {
+text-decoration: underline;
+}
+
+/*ultimos cambios 10 de julio 2013 mario diaz*/
+.slide{display:none; position:relative; float:right; width:470px; height:100px; background-color:#FFFFFF;}
+
+/* flechas para siguiente y anterior */
+/* .flechaIzquierda{position:absolute; bottom:65%; left:35px; background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat; background-position:0px -0px; padding:18px 12px; cursor:pointer; z-index:1000;*padding-top: 0px;}
+.flechaIzquierda:hover{ background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat;background-position:0px -35px;}
+.flechaIzquierda:active{ background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat;background-position:0px -70px;}
+
+.flechaDerecha{ position:absolute; bottom:65%; right:35px; background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat; background-position:-23px -0px; padding:18px 12px; cursor:pointer; z-index:1000;*padding-top: 0px;}
+.flechaDerecha:hover{background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat;background-position:-23px -35px}
+.flechaDerecha:active{ background:url(/wps/wcm/connect/85bcbfe3-a1af-41bb-9d99-c453d101865a/flechas.png?MOD=AJPERES); background-repeat:no-repeat;background-position:-23px -70px;} */
+
+
+/* 
+.imgDestacado{width:35px;height:100px; background-image:url(/wps/wcm/connect/ac380d1e-93b7-4b2d-8cf8-baf82143d8fd/imagen_destacado.png?MOD=AJPERES); float:right; position:relative; cursor:pointer;}
+.contenedorDestacado{padding:10px;}*/
+
+
+/* estilos para noticias destacas*/
+
+/* .bloqueNoticias { background:url(/wps/wcm/connect/3209bd5b-d2f2-46c1-9e1c-7922c760e14e/bloqueNot_bg.png?MOD=AJPERES) repeat; border-radius:5px; height:97px; padding-left:30px; position:absolute; bottom:45%; right:-575px; width:600px; z-index:5000;} */
+.bloqueNoticias a{text-decoration:none;}
+.bloqueNoticias a.detalleNot { float:left; width:150px; height:87px; margin:0 22px 0 12px; padding-top:10px; cursor:pointer; }
+.bloqueNoticias a.detalleNot span { color:#333; font-size:12px; font-weight:normal; text-align:left;}
+.bloqueNoticias a.detalleNot h4 { color:#fff; font-size:16px; font-weight:bold; text-align:left;}
+.bloqueNoticias a.detalleNot p { color:#fff; font-size:12px; font-weight:normal; text-align:left;}
+
+.bloqueNoticias a.detalleNot span:hover { text-decoration:none;}
+.bloqueNoticias a.detalleNot h4:hover { text-decoration:underline; color:#fff; }
+.bloqueNoticias a.detalleNot p:hover { text-decoration:underline; color:#fff; }
+
+/* .bloqueNoticias a.btnNot{ float:left; margin:35px 0 0 -10px; background:url(/wps/wcm/connect/ac380d1e-93b7-4b2d-8cf8-baf82143d8fd/notocias_btn.png?MOD=AJPERES) no-repeat; width:25px; height:27px; display:block; text-indent:-9999px; text-indent:-9999px;}
+.bloqueNoticias a.btnNot.active{ background:url(/wps/wcm/connect/ac380d1e-93b7-4b2d-8cf8-baf82143d8fd/notocias_btn.png?MOD=AJPERES) no-repeat left bottom;} */
+
+/* estilos para globo de sucursales */
+.globoInfo  h4{font-weight: bold; margin-bottom: 2px;}
+.globoInfo #nombre_sucursal h3 { font-size: 21px; font-weight: bold; padding: 0 10px;}
+/* .globoInfo #direccion_sucursal {background: url(/wps/wcm/connect/1e78fbeb-8def-4d8f-9fab-3e36de6032d1/icon_direccion.png?MOD=AJPERES) 0 10px no-repeat;}
+.globoInfo #fono_sucursal{background: url(/wps/wcm/connect/e5179d5a-39c6-4269-a1ea-39b46035649a/icon_fono.png?MOD=AJPERES) 0 10px no-repeat;}
+.globoInfo #horario_sucursal{background: url(/wps/wcm/connect/a2c70530-687e-424a-a121-d5113956ae04/icon_horario.png?MOD=AJPERES) 0 5px no-repeat;} */
+.globoInfo div{margin: 0 0 0 10px; padding: 10px 0 10px 0; overflow: auto; border-bottom: 1px solid #CCCCCC;}
+#section_tabs2 .tab_content p {
+margin: 0px 0;}

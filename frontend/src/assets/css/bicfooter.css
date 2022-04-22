@@ -1,0 +1,109 @@
+
+/* GERAL_MODIFICADO_CW_21_SETEMBRO_2012_MO_OPENTEXT_09_28 */
+#footer {
+	Z-INDEX: 2999;/*position:fixed;*/  BACKGROUND-COLOR: #ffffff; WIDTH: 100%; VERTICAL-ALIGN: baseline
+}
+.posabsolute {position:absolute!important;}
+
+.bottom_footer {
+	overflow: hidden;
+	/*border-top: 1px solid #E8E9EC;*/
+	text-align:left;
+	margin-left:50px;
+	padding-top: 8px;
+	font-size: 11px;
+    height: 24px;
+    margin: 0;
+    position: relative;
+	background: url(../images/bg-footer.gif) left top repeat-x #edeceb;
+}
+
+.bottom_footer a{
+	text-decoration:underline;
+}
+
+.bottom_footer p {
+	margin-left:20px;
+}
+
+
+#footer .navFooter a, #footer .navFooter div.btnAcessoRapido a,
+#footer .navFooter a, #footer .acessoRapido div.btnVoltarTopo a { text-decoration: none; color: #373a41; }
+
+#footer .navFooter a:hover { text-decoration: underline; }
+
+#footer .navFooter { width: 100%; height:20px; *height:26px; font-size: 11px; position:relative; margin:0; }
+#footer .navFooter ul { margin: 9px 0 0 0; }
+#footer .navFooter ul li {
+	/* display: inline; */
+	margin: 0 0 0 18px;
+	float: left;
+}
+
+#footer .navFooter li img {
+	margin-top: -3px; 
+	float: left; 
+	margin-right: 5px; 
+}
+
+#footer .navFooter .btnAcessoRapido { position:absolute; margin:0; bottom:0; right:20px; padding:0 3px; background: url(../images/bg-mapa-site-trans.png) left top no-repeat; width: 156px; height: 45px; }
+#footer .btnVoltarTopo { right: 20px; margin: 0 0 -3px 0; padding: 3px 3px 0 3px; background: url(../images/bg-mapa-site-trans.png) left top no-repeat; width: 156px; height: 45px; bottom: 0; position: fixed; z-index: 10; }
+
+#footer .navFooter .btnAcessoRapido a { font-size: 14px; font-weight: bold; background: url(../images/seta-acesso-rapido.png) 14px 17px no-repeat; padding-left: 35px; padding-top: 18px; display: block; height: 25px; }
+.btnVoltarTopo a { font-size: 16px; font-weight: bold; background: url(../images/seta-voltar-topo.png) 13px 13px no-repeat; padding-left: 34px; padding-top: 16px; display: block; height: 25px; }
+
+/* Busca de A a Z */
+#footer .acessoRapido { display: block; padding:0 0 0 0; background:none; }
+
+.buscaAaZ { margin: 20px 0 40px 0; }
+.destaqueAaZ { border-radius:16px; -moz-border-radius:16px; -webkit-border-radius:16px; /*behavior: url(../js/border-radius.htc);*/ background: url(../images/search-icon.png) 7px center no-repeat #fff; padding: 5px 25px; border: 1px solid; border-color: #8C9399 #B6BFC4 #B6BFC4; color: #68727B; font-family: Arial, sans-serif; font-size: 13px; width: 250px; }
+
+.acessoRapido { border-top: 1px solid #ccc; }
+.contentAcessoRapido { width: 980px; margin: 20px auto; text-align: center; }
+.contentAcessoRapido p.titAcessoRapido { margin: 20px 0;	font-size: 26px; color: #56646A; }
+.contentAcessoRapido p.titAcessoRapido a { font-size: 20px; text-decoration: underline; }
+
+.bodyAcessoRapido {	text-align: left; min-height: 600px; *height:auto !important; *height: 600px; }
+.bodyAcessoRapido a { text-decoration: none; }
+.bodyAcessoRapido a:hover { text-decoration: underline; }
+
+.linhaindice { width: 100%; margin: 20px 0; }
+.colunaindice { margin: 0 7px 0 0; float: left; }
+.colunaindice ol { width: 160px; margin: 0 18px 20px 0; float: left; }
+.colunaindice ol.colunas { width: 164px; margin: 0 24px 20px 0; float: left; min-height: 160px; *height:auto !important; *height: 160px; }
+.colunaindice li { line-height: 20px; }
+.letraindice { font-size: 32px; font-weight: bold; color: #a2aaae; border-bottom: 1px solid #ccc; margin-bottom: 15px; width: 92%; }
+
+/* Footer Social Media */
+#footer .footerSocial { width: 980px; margin: 20px auto; margin-bottom: 70px; text-align: center; height: 50px; border: none; }
+
+#footer .footerSocial .telSocial { border-top: 1px solid #ccc; color: #8A8F94; }
+#footer .footerSocial .telSocial ul.tel { float: left; margin-top: 15px; }
+#footer .footerSocial .telSocial ul.tel li { padding: 0 20px 0 0; }
+#footer .footerSocial .telSocial ul.tel li span { font-weight: bold; }
+#footer .footerSocial .telSocial ul.social { float: right; margin-top: 10px; }
+#footer .footerSocial .telSocial ul.social li { padding: 0 0 0 5px; }
+#footer .footerSocial .telSocial li { display: inline; }
+
+#footer .paises {position:absolute;right:190px;top:-13px;z-index:2;}
+#footer .paises ul {display:table;margin:0;}
+#footer .paises ul li {margin: 0;padding:7px 4px 0px 12px;cursor:pointer;}
+#footer .paises ul li .chile {cursor:pointer;}
+/* #footer .paises ul li .chile i {background:url(../images/bandera-chile.jpg);display:block;margin:4px;width:22px;height:15px;} */
+#footer .paises ul li ul {border:1px solid #fafafa;display:none;position:absolute;top:-125px;left:-68px;border-bottom:none;-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
+#footer .paises ul li ul li {background: #fff;padding: 3px 2px 0 2px;display: block;clear: both;width: 110px;border-bottom: 1px solid #fafafa;margin-left: 0px;}
+#footer .paises ul li ul li a {padding: 2px;display: table;font-size: 11px;width: 100%;color: #373a41;text-decoration: none;line-height: 21px;margin-left: 0;vertical-align: text-bottom;margin-top: 3px;}
+#footer .paises ul li ul li a i {float: left;display: inline-block;margin: 0 4px;width: 22px;height: 15px;}
+#footer .paises ul li:hover ul {display:block;}
+/* #footer .paises ul li ul li.brasil a i {background:url(../images/bandera-brasil.jpg);} */
+/* #footer .paises ul li ul li.argentina a i {background:url(../images/bandera-argentina.jpg);}
+#footer .paises ul li ul li.uruguay a i {background:url(../images/bandera-uruguay.jpg);}
+#footer .paises ul li ul li.paraguay a i {background:url(../images/bandera-paraguay.jpg);} */
+
+
+/* New - ajustes p8.5 */
+
+#footer .navFooter {width: 100%;height: 28px; *height:26px;font-size: 11px;position:relative;margin:0;}
+#footer .paises {top: -4px;}
+
+
